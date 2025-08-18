@@ -19,7 +19,7 @@
 .hero__title::after {
     width: 114px;
     height: 64px;
-    content: url('/icons/Illustration.svg');
+    content: url('./icons/Illustration.svg');
     position: absolute;
     top: -15px;
     right: 20px;
@@ -28,7 +28,7 @@
 .hero__title::before {
     width: 218px;
     height: 26px;
-    content: url('/icons/hero-down.svg');
+    content: url('./icons/hero-down.svg');
     position: absolute;
     bottom: 0px;
     left: 60px;
