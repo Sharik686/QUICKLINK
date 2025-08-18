@@ -26,12 +26,12 @@
 }
 
 .faq-icon::after {
-    content: url('./icons/plus-icon.svg');
+    content: url('/icons/plus-icon.svg');
     display: inline-block;
 }
 
 .faq__list[open] .faq-icon::after {
-    content: url('./icons/minus-icon.svg');
+    content: url('/icons/minus-icon.svg');
 }
 
 .faq__content {
