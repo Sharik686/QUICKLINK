@@ -1,0 +1,389 @@
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding: 0 50px;
+    gap: 135px;
+    position: relative;
+}
+
+
+
+.experience {
+    max-width: 545px;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    padding: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 24px;
+    border: 1px solid #333;
+}
+
+.experience__title {
+    color: #AADB6B;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.experience__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    gap: 21px;
+    color: #fff;
+}
+
+.experience__company {
+    display: flex;
+    align-items: center;
+}
+
+.experience__company-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.experience__company-period {
+    color: #76757B;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.company-link {
+    display: block;
+    color: #76757B;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.experience__post {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 6px 0 0 0;
+}
+
+
+
+
+.portfolio__wrapper {
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 32px;
+    background: #FFAFB0;
+    color: #000;
+}
+
+.portfolio__image {
+    width: 170px;
+    height: 170px;
+}
+
+.portfolio__about {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.portfolio__about-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.portfolio__about-desc {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.portfolio__about-link {
+    max-width: 118px;
+    height: 40px;
+    padding: 8px 6px;
+    gap: 4px;
+    border: 1px solid #000;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-end;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+.portfolio__icon-right {
+    width: 15px;
+    height: 15px;
+}
+
+
+
+.about {
+    position: absolute;
+    max-width: 658px;
+    display: flex;
+    background-color: #140E17;
+    padding: 30px 36px;
+    align-self: center;
+    align-items: center;
+    gap: 45px;
+    border-radius: 24px;
+    border: 2px solid #333;
+}
+
+
+.about__name {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.about__desc {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.about__link {
+    max-width: 105px;
+    margin: 30px 0 0 0;
+    display: flex;
+    padding: 8px 6px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    background: #F9D69E;
+    color: #000;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.about__icon-right {
+    width: 11px;
+    height: 11px;
+}
+
+
+
+.custom {
+    margin: 32px 0 0 0;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 32px;
+    border: 1px solid #333;
+}
+
+.custom__desc {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.custom__link {
+    align-self: flex-end;
+    display: flex;
+    padding: 18px 14px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 18px;
+    border: 1px solid #333;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .profile {
+        padding: 0 36px;
+        gap: 97px;
+    }
+
+
+
+    .experience {
+        max-width: 392px;
+        height: 233px;
+        padding: 13px;
+    }
+    .experience__title {
+        font-size: 13px;
+    }
+    .experience__wrapper {
+        gap: 8px;
+    }
+    .experience__company-name {
+        font-size: 13px;
+    }
+    .experience__company-period {
+        font-size: 9px;
+    }
+    .company-link {
+        font-size: 9px;
+    }
+    .experience__post {
+        font-size: 9px;
+        margin: 4px 0 0 0;
+    }
+
+
+
+    .portfolio__wrapper {
+        max-width: 158px;
+        padding: 20px;
+        gap: 16px;
+
+    }
+    .portfolio__image {
+        width: 122px;
+        height: 122px;
+    }
+    .portfolio__about {
+        gap: 9px;
+    }
+    .portfolio__about-title {
+        font-size: 20px;
+
+    }
+    .portfolio__about-desc {
+        font-size: 8px;
+    }
+    .portfolio__about-link {
+        padding: 8px 6px;
+        gap: 4px;
+        border-radius: 8px;
+    }
+    .portfolio__icon-right {
+        width: 15px;
+        height: 15px;
+    }
+
+
+
+    .about {
+        max-width: 473px;
+        padding: 21px 26px;
+        gap: 57px;
+    }
+    .about__name {
+        font-size: 22px;
+    }
+    .about__desc {
+        font-size: 8px;
+    }
+    .about__link {
+        max-width: 76px;
+        height: 20px;
+        gap: 8px;
+        border-radius: 6px;
+        font-size: 6px;
+    }
+    .about__icon-right {
+        width: 11px;
+        height: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile {
+        padding: 0 20px;
+        gap: 45px;
+    }
+
+
+
+    .experience {
+        max-width: 182px;
+        height: 110px;
+        padding: 6px;
+        gap: 8px;
+        border-radius: 8px;
+    }
+    .experience__title {
+        font-size: 6px;
+    }
+    .experience__company-name {
+        font-size: 6px;
+    }
+    .experience__company-period {
+        font-size: 4px;
+    }
+    .company-link {
+        font-size: 4px;
+    }
+    .experience__post {
+        font-size: 4px;
+    }
+
+
+
+    .portfolio__wrapper {
+        max-width: 71px;
+        padding: 7px;
+        gap: 5px;
+        border-radius: 8px;
+    }
+    .portfolio__image {
+        width: 57px;
+        height: 57px;
+    }
+    .portfolio__about {
+        gap: 4px;
+    }
+    .portfolio__about-title {
+        font-size: 9px;
+    }
+    .portfolio__about-desc {
+        font-size: 4px;
+    }
+    .portfolio__about-link {
+        width: 39px;
+        height: 13px;
+        font-size: 4px;
+        padding: 4px 3px;
+        gap: 2px;
+        border-radius: 4px;
+    }
+    .portfolio__icon-right {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    .about {
+        max-width: 220px;
+        height: 83px;
+        padding: 10px 12px;
+        gap: 12px;
+        border-radius: 8px;
+    }
+    .photo {
+        width: 61px;
+        height: 61px;
+    }
+    .about__name {
+        font-size: 10px;
+
+    }
+    .about__desc {
+        font-size: 4px;
+    }
+    .about__link {
+        max-width: 35px;
+        max-height: 10px;
+        gap: 8px;
+        border-radius: 6px;
+        font-size: 3px;
+        margin: 10px 0 0 0;
+    }
+    .about__icon-right {
+        width: 6px;
+        height: 6px;
+    }
+}

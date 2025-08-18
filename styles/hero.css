@@ -1,0 +1,132 @@
+.hero__wrapper {
+    display: flex;
+}
+
+.hero__text {
+    max-width: 539px;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.hero__title {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 100%;
+    position: relative;
+}
+
+.hero__title::after {
+    width: 114px;
+    height: 64px;
+    content: url('/icons/Illustration.svg');
+    position: absolute;
+    top: -15px;
+    right: 20px;
+}
+
+.hero__title::before {
+    width: 218px;
+    height: 26px;
+    content: url('/icons/hero-down.svg');
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+}
+
+.hero__desc {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero__pic {
+    object-fit: cover;
+}
+
+.hero__form {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 64px 0 0 0;
+}
+
+.hero__input {
+    max-width: 317px;
+    height: 61px;
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 18px;
+}
+
+.hero__btn {
+    max-width: 222px;
+    height: 61px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    padding: 18px 14px;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 18px;
+    background: #F5FA93;
+}
+
+.hero__icon-right {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 1024px) {
+    .hero__pic {
+        position: absolute;
+        right: 0;
+        opacity: 0.2;
+        z-index: -1;
+    }
+
+    .hero__title::after {
+        top: -15px;
+        right: 20px;
+    }
+
+    .hero__form {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__pic {
+        width: 257.9px;
+        height: 237.0px;
+    }
+
+    .hero__title {
+        max-width: 335px;
+        font-size: 42px;
+        font-weight: 700;
+    }
+
+    .hero__title::after {
+        width: 34px;
+        height: 30px;
+        right: 40px;
+    }
+
+    .hero__title::before {
+        width: 100px;
+        height: 21px;
+        bottom: 0px;
+        left: 60px;
+    }
+
+    .hero__form {
+        display: flex;
+        flex-direction: column;
+    }
+}

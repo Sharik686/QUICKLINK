@@ -1,0 +1,128 @@
+.tarrif__title {
+    color: #F5FA93;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 0 24px;
+}
+
+.tarrif__cards {
+    display: flex;
+    gap: 32px;
+    margin: 32px 0 0 0;
+}
+
+
+
+.tarrif__card {
+    max-width: 484px;
+    width: 100%;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 32px;
+    background-color: #F5FA93;
+    color: #000;
+    border-radius: 32px;
+    position: relative;
+}
+
+.card-premium::before {
+    content: 'Лучший выбор';
+    position: absolute;
+    padding: 16px;
+    right: 32px;
+    top: -25px;
+    border-radius: 18px;
+    border: 1px solid #333;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.tarrif__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 1;
+}
+
+.tarrif-price-month {
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.price--bold {
+    font-size: 68px;
+    font-weight: 800;
+}
+
+.tarrif__desc {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.offer {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.offer-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 8px;
+}
+
+.offer-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #000;
+}
+
+.tarrif__btn {
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    padding: 18px 14px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    border: 1px solid #333;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-wrap: nowrap;
+
+}
+
+
+@media (max-width: 768px) {
+    .tarrif__card {
+        max-width: 484px;
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .tarrif__card {
+        height: 464px;
+    }
+
+    .tarrif__cards {
+        flex-wrap: wrap;
+    }
+
+}
