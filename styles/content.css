@@ -206,7 +206,6 @@
 
     .experience {
         max-width: 392px;
-        height: 233px;
         padding: 13px;
     }
 
@@ -246,7 +245,6 @@
 
     .portfolio__image {
         width: 122px;
-        height: 122px;
     }
 
     .portfolio__about {
@@ -270,7 +268,6 @@
 
     .portfolio__icon-right {
         width: 15px;
-        height: 15px;
     }
 
 
@@ -297,7 +294,6 @@
 
     .about__link {
         max-width: 76px;
-        height: 20px;
         gap: 8px;
         border-radius: 6px;
         font-size: 6px;
@@ -305,7 +301,6 @@
 
     .about__icon-right {
         width: 11px;
-        height: 11px;
     }
 }
 
@@ -318,7 +313,6 @@
 
     .experience {
         max-width: 182px;
-        height: 110px;
         padding: 6px;
         gap: 8px;
         border-radius: 8px;
