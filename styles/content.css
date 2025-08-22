@@ -102,6 +102,7 @@
 
 .portfolio__about-link {
     max-width: 118px;
+    width: 100%;
     padding: 8px 12px;
     gap: 6px;
     border: 1px solid #000;
