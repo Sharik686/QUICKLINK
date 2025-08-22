@@ -1,12 +1,14 @@
 .profile {
+    position: relative;
+}
+
+.profile-back {
     display: flex;
     justify-content: space-around;
     align-items: end;
     padding: 0 50px;
     gap: 135px;
-    position: relative;
 }
-
 
 
 .experience {
@@ -103,8 +105,8 @@
 .portfolio__about-link {
     max-width: 118px;
     height: 40px;
-    padding: 8px 6px;
-    gap: 4px;
+    padding: 8px 12px;
+    gap: 6px;
     border: 1px solid #000;
     border-radius: 12px;
     display: flex;
@@ -124,12 +126,15 @@
 
 
 .about {
-    position: absolute;
     max-width: 658px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     background-color: #140E17;
-    padding: 30px 36px;
-    align-self: center;
+    padding: 30px 70px;
     align-items: center;
     gap: 45px;
     border-radius: 24px;
@@ -152,9 +157,9 @@
     margin: 30px 0 0 0;
     display: flex;
     padding: 8px 6px;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
-    gap: 4px;
+    gap: 22px;
     border-radius: 8px;
     background: #F9D69E;
     color: #000;
@@ -199,33 +204,37 @@
 }
 
 @media (max-width: 768px) {
-    .profile {
+    .profile-back {
         padding: 0 36px;
-        gap: 97px;
+        gap: 80px;
     }
-
-
 
     .experience {
         max-width: 392px;
         height: 233px;
         padding: 13px;
     }
+
     .experience__title {
         font-size: 13px;
     }
+
     .experience__wrapper {
         gap: 8px;
     }
+
     .experience__company-name {
         font-size: 13px;
     }
+
     .experience__company-period {
         font-size: 9px;
     }
+
     .company-link {
         font-size: 9px;
     }
+
     .experience__post {
         font-size: 9px;
         margin: 4px 0 0 0;
@@ -239,25 +248,31 @@
         gap: 16px;
 
     }
+
     .portfolio__image {
         width: 122px;
         height: 122px;
     }
+
     .portfolio__about {
         gap: 9px;
     }
+
     .portfolio__about-title {
         font-size: 20px;
 
     }
+
     .portfolio__about-desc {
         font-size: 8px;
     }
+
     .portfolio__about-link {
         padding: 8px 6px;
         gap: 4px;
         border-radius: 8px;
     }
+
     .portfolio__icon-right {
         width: 15px;
         height: 15px;
@@ -268,14 +283,23 @@
     .about {
         max-width: 473px;
         padding: 21px 26px;
-        gap: 57px;
+        gap: 26px;
+        border-radius: 17px;
     }
+
+    .photo {
+        width: 130px;
+        height: 130px;
+    }
+
     .about__name {
         font-size: 22px;
     }
+
     .about__desc {
         font-size: 8px;
     }
+
     .about__link {
         max-width: 76px;
         height: 20px;
@@ -283,6 +307,7 @@
         border-radius: 6px;
         font-size: 6px;
     }
+
     .about__icon-right {
         width: 11px;
         height: 11px;
@@ -290,11 +315,10 @@
 }
 
 @media (max-width: 480px) {
-    .profile {
-        padding: 0 20px;
+    .profile-back {
+        padding: 0 16px;
         gap: 45px;
     }
-
 
 
     .experience {
@@ -304,18 +328,23 @@
         gap: 8px;
         border-radius: 8px;
     }
+
     .experience__title {
         font-size: 6px;
     }
+
     .experience__company-name {
         font-size: 6px;
     }
+
     .experience__company-period {
         font-size: 4px;
     }
+
     .company-link {
         font-size: 4px;
     }
+
     .experience__post {
         font-size: 4px;
     }
@@ -328,19 +357,24 @@
         gap: 5px;
         border-radius: 8px;
     }
+
     .portfolio__image {
         width: 57px;
         height: 57px;
     }
+
     .portfolio__about {
         gap: 4px;
     }
+
     .portfolio__about-title {
         font-size: 9px;
     }
+
     .portfolio__about-desc {
         font-size: 4px;
     }
+
     .portfolio__about-link {
         width: 39px;
         height: 13px;
@@ -349,6 +383,7 @@
         gap: 2px;
         border-radius: 4px;
     }
+
     .portfolio__icon-right {
         width: 5px;
         height: 5px;
@@ -363,25 +398,30 @@
         gap: 12px;
         border-radius: 8px;
     }
+
     .photo {
         width: 61px;
         height: 61px;
     }
+
     .about__name {
         font-size: 10px;
 
     }
+
     .about__desc {
         font-size: 4px;
     }
+
     .about__link {
         max-width: 35px;
         max-height: 10px;
-        gap: 8px;
+        gap: 4px;
         border-radius: 6px;
         font-size: 3px;
         margin: 10px 0 0 0;
     }
+
     .about__icon-right {
         width: 6px;
         height: 6px;

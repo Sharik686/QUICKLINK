@@ -29,6 +29,11 @@
     gap: 20px;
 }
 
+.social-link:hover .social-link-item {
+    filter:
+        brightness(0) saturate(100%) invert(85%) sepia(30%) saturate(400%) hue-rotate(350deg) brightness(105%) contrast(90%);
+}
+
 .footer__nav-menu {
     max-width: 232px;
     width: 100%;
@@ -44,6 +49,10 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 500;
+}
+
+.nav-item a:hover {
+    color: #F9D69E;
 }
 
 @media (max-width: 768px) {

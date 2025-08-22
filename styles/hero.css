@@ -19,7 +19,7 @@
 .hero__title::after {
     width: 114px;
     height: 64px;
-    content: url('./icons/Illustration.svg');
+    content: url('../icons/Illustration.svg');
     position: absolute;
     top: -15px;
     right: 20px;
@@ -28,7 +28,7 @@
 .hero__title::before {
     width: 218px;
     height: 26px;
-    content: url('./icons/hero-down.svg');
+    content: url('../icons/hero-down.svg');
     position: absolute;
     bottom: 0px;
     left: 60px;
@@ -47,7 +47,7 @@
     display: flex;
     align-items: flex-start;
     gap: 24px;
-    margin: 64px 0 0 0;
+    margin: 13px 0 0 0;
 }
 
 .hero__input {
@@ -97,6 +97,7 @@
         display: flex;
         align-items: flex-start;
         gap: 24px;
+        margin: 64px 0 0 0;
     }
 }
 

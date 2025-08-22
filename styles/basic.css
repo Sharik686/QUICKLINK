@@ -25,6 +25,11 @@ body {
     padding: 64px 20px;
 }
 
+input, button {
+    outline: none;
+    border: none;
+}
+
 
 ul {
     padding: 0;

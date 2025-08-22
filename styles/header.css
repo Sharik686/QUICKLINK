@@ -43,6 +43,10 @@
     text-wrap: nowrap;
 }
 
+.header__menu-link a:hover {
+    color: #F5FA93;
+}
+
 .header__menu-link a {
     color: #fff;
 }
