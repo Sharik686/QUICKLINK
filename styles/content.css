@@ -101,12 +101,12 @@
 }
 
 .portfolio__about-link {
-    max-width: 100%;
+    max-width: 115px;
     padding: 8px 12px;
     gap: 6px;
     border: 1px solid #000;
     border-radius: 12px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-around;
     align-self: flex-end;
@@ -149,10 +149,11 @@
 }
 
 .about__link {
+    max-width: 105px;
     margin: 30px 0 0 0;
     display: inline-flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     gap: 22px;
     color: #000;
     background: #F9D69E;
@@ -160,7 +161,6 @@
     border-radius: 8px;
     font-size: 8px;
     font-weight: 600;
-    max-width: 100%;
     overflow: hidden;  
 }
 
@@ -294,8 +294,8 @@
     }
 
     .about__link {
-        max-width: 76px;
-        gap: 8px;
+        gap: 20px;
+        padding: 6px 4px 6px 12px;
         border-radius: 6px;
         font-size: 6px;
     }
@@ -366,8 +366,7 @@
     }
 
     .portfolio__about-link {
-        width: 39px;
-        height: 13px;
+        max-width: 39px;
         font-size: 4px;
         padding: 4px 3px;
         gap: 2px;
@@ -405,9 +404,9 @@
 
     .about__link {
         max-width: 35px;
-        max-height: 10px;
         gap: 4px;
-        border-radius: 6px;
+        padding: 2px 3px 2px 7px;
+        border-radius: 3px;
         font-size: 3px;
         margin: 10px 0 0 0;
     }
