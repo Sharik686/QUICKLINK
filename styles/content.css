@@ -101,7 +101,7 @@
 }
 
 .portfolio__about-link {
-    width: 100%;
+    max-width: 100%;
     padding: 8px 12px;
     gap: 6px;
     border: 1px solid #000;
@@ -149,18 +149,19 @@
 }
 
 .about__link {
-    width: 100%;
     margin: 30px 0 0 0;
-    display: flex;
-    padding: 8px 6px;
-    justify-content: end;
+    display: inline-flex;
     align-items: center;
+    justify-content: end;
     gap: 22px;
-    border-radius: 8px;
-    background: #F9D69E;
     color: #000;
+    background: #F9D69E;
+    padding: 8px 6px 8px 20px;
+    border-radius: 8px;
     font-size: 8px;
     font-weight: 600;
+    max-width: 100%;
+    overflow: hidden;  
 }
 
 .about__icon-right {
